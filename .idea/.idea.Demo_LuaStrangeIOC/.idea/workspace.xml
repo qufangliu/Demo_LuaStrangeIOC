@@ -3,7 +3,12 @@
   <component name="ChangeListManager">
     <list default="true" id="b112df3e-0ade-49e8-9a04-e8ebfbb57dfb" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Demo_LuaStrangeIOC/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Demo_LuaStrangeIOC/.idea/contentModel.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Demo_LuaStrangeIOC/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Demo_LuaStrangeIOC/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/Assets/Editor/ToLua/Custom/CustomSettings.cs" afterPath="$PROJECT_DIR$/Assets/Editor/ToLua/Custom/CustomSettings.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Lua.meta" afterPath="" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameMain.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/GameMain.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Generate/DelegateFactory.cs" afterPath="$PROJECT_DIR$/Assets/Source/Generate/DelegateFactory.cs" />
+      <change beforePath="$PROJECT_DIR$/Assets/Source/Generate/LuaBinder.cs" afterPath="$PROJECT_DIR$/Assets/Source/Generate/LuaBinder.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,13 +22,55 @@
       <file leaf-file-name="GameMain.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameMain.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+            <state relative-caret-position="345">
+              <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
               <folding>
-                <marker date="1528959789000" expanded="false" signature="6:114" ph="..." />
-                <marker date="1528959789000" expanded="true" signature="154:642" ph="{...}" />
-                <marker date="1528959789000" expanded="true" signature="204:578" ph="{...}" />
-                <marker date="1528959789000" expanded="true" signature="633:640" ph="{...}" />
+                <marker date="1528960739000" expanded="false" signature="6:131" ph="..." />
+                <marker date="1528960739000" expanded="true" signature="171:851" ph="{...}" />
+                <marker date="1528960739000" expanded="true" signature="221:787" ph="{...}" />
+                <marker date="1528960739000" expanded="true" signature="272:633" ph="/* tolua test ... */" />
+                <marker date="1528960739000" expanded="true" signature="842:849" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TestFairyGUI.lua" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Lua/TestFairyGUI.lua">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomSettings.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Editor/ToLua/Custom/CustomSettings.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="917">
+              <caret line="179" column="31" lean-forward="false" selection-start-line="179" selection-start-column="31" selection-end-line="179" selection-end-column="31" />
+              <folding>
+                <marker date="1528960841000" expanded="true" signature="6:184" ph="..." />
+                <marker date="1528960841000" expanded="true" signature="220:10336" ph="{...}" />
+                <marker date="1528960841000" expanded="true" signature="561:649" ph="/* 导出时强制做为静态类的类型(注意customTypeList 还要添加这个类型才能导出) ... */" />
+                <marker date="1528960841000" expanded="true" signature="717:1155" ph="{...}" />
+                <marker date="1528960841000" expanded="true" signature="1277:1564" ph="{...}" />
+                <marker date="1528960841000" expanded="true" signature="1644:7770" ph="{...}" />
+                <marker date="1528960841000" expanded="true" signature="1670:2277" ph="/* ------------------------为例子导出-------------------------------- ... */" />
+                <marker date="1528960841000" expanded="true" signature="3609:3787" ph="/* _GT(typeof(LineRenderer)).AddExtendType(typeof(DG.Tweening.ShortcutExtensions)), ... */" />
+                <marker date="1528960841000" expanded="true" signature="4062:4126" ph="/* _GT(typeof(LineRenderer)) ... */" />
+                <marker date="1528960841000" expanded="true" signature="7837:8348" ph="{...}" />
+                <marker date="1528960841000" expanded="true" signature="8355:8411" ph="/* 重载函数，相同参数个数，相同位置out参数匹配出问题时, 需要强制匹配解决 ... */" />
+                <marker date="1528960841000" expanded="true" signature="8472:8488" ph="{...}" />
+                <marker date="1528960841000" expanded="true" signature="8602:9637" ph="{...}" />
+                <marker date="1528960841000" expanded="true" signature="8612:9631" ph="/* typeof(Transform), ... */" />
+                <marker date="1528960841000" expanded="true" signature="9678:9722" ph="{...}" />
+                <marker date="1528960841000" expanded="true" signature="9766:9814" ph="{...}" />
+                <marker date="1528960841000" expanded="true" signature="9903:10104" ph="{...}" />
+                <marker date="1528960841000" expanded="true" signature="9945:10052" ph="{...}" />
+                <marker date="1528960841000" expanded="true" signature="10188:10334" ph="{...}" />
+                <marker date="1528960841000" expanded="true" signature="10230:10282" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -31,16 +78,27 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="NewLua" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameMain.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Editor/ToLua/Custom/CustomSettings.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/Assets/Lua/UI/TestFairyGUI.lua" />
         <option value="$PROJECT_DIR$/Assets/Scripts/GameMain.cs" />
+        <option value="$PROJECT_DIR$/Assets/Editor/ToLua/Custom/CustomSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Lua/TestFairyGUI.lua" />
       </list>
     </option>
   </component>
@@ -51,10 +109,13 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="475" />
-    <option name="y" value="111" />
+    <option name="x" value="168" />
+    <option name="y" value="99" />
     <option name="width" value="1270" />
     <option name="height" value="863" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -79,6 +140,55 @@
               <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
               <item name="Demo_LuaStrangeIOC (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
             </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Demo_LuaStrangeIOC (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Demo_LuaStrangeIOC (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Demo_LuaStrangeIOC (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Lua" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Demo_LuaStrangeIOC (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Lua" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Thirdparty" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Demo_LuaStrangeIOC (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Demo_LuaStrangeIOC (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Thirdparty" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="Demo_LuaStrangeIOC (3 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assembly-CSharp" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Assets" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Scripts" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="UI" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -89,6 +199,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="SearchEverywhereHistoryKey" value="custom&#9;null&#9;null" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -119,12 +230,12 @@
       <option name="presentableId" value="Default" />
       <updated>1528957829129</updated>
       <workItem from="1528957834745" duration="257000" />
-      <workItem from="1528958117332" duration="1636000" />
+      <workItem from="1528958117332" duration="2614000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1893000" />
+    <option name="totallyTimeSpent" value="2871000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -136,7 +247,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="475" y="111" width="1270" height="863" extended-state="0" />
+    <frame x="168" y="99" width="1270" height="863" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -179,23 +290,86 @@
         <state relative-caret-position="150">
           <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
           <folding>
-            <marker date="1528959789000" expanded="false" signature="6:114" ph="..." />
-            <marker date="1528959789000" expanded="true" signature="154:642" ph="{...}" />
-            <marker date="1528959789000" expanded="true" signature="204:578" ph="{...}" />
-            <marker date="1528959789000" expanded="true" signature="633:640" ph="{...}" />
+            <marker date="1528960739000" expanded="false" signature="6:131" ph="..." />
+            <marker date="1528960739000" expanded="true" signature="171:851" ph="{...}" />
+            <marker date="1528960739000" expanded="true" signature="221:787" ph="{...}" />
+            <marker date="1528960739000" expanded="true" signature="272:633" ph="/* tolua test ... */" />
+            <marker date="1528960739000" expanded="true" signature="842:849" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Lua/UI/TestFairyGUI.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="25" lean-forward="false" selection-start-line="8" selection-start-column="25" selection-end-line="8" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Lua/TestFairyGUI.lua.meta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Lua/Thirdparty.meta">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Editor/ToLua/Custom/CustomSettings.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="917">
+          <caret line="179" column="31" lean-forward="false" selection-start-line="179" selection-start-column="31" selection-end-line="179" selection-end-column="31" />
+          <folding>
+            <marker date="1528960841000" expanded="true" signature="6:184" ph="..." />
+            <marker date="1528960841000" expanded="true" signature="220:10336" ph="{...}" />
+            <marker date="1528960841000" expanded="true" signature="561:649" ph="/* 导出时强制做为静态类的类型(注意customTypeList 还要添加这个类型才能导出) ... */" />
+            <marker date="1528960841000" expanded="true" signature="717:1155" ph="{...}" />
+            <marker date="1528960841000" expanded="true" signature="1277:1564" ph="{...}" />
+            <marker date="1528960841000" expanded="true" signature="1644:7770" ph="{...}" />
+            <marker date="1528960841000" expanded="true" signature="1670:2277" ph="/* ------------------------为例子导出-------------------------------- ... */" />
+            <marker date="1528960841000" expanded="true" signature="3609:3787" ph="/* _GT(typeof(LineRenderer)).AddExtendType(typeof(DG.Tweening.ShortcutExtensions)), ... */" />
+            <marker date="1528960841000" expanded="true" signature="4062:4126" ph="/* _GT(typeof(LineRenderer)) ... */" />
+            <marker date="1528960841000" expanded="true" signature="7837:8348" ph="{...}" />
+            <marker date="1528960841000" expanded="true" signature="8355:8411" ph="/* 重载函数，相同参数个数，相同位置out参数匹配出问题时, 需要强制匹配解决 ... */" />
+            <marker date="1528960841000" expanded="true" signature="8472:8488" ph="{...}" />
+            <marker date="1528960841000" expanded="true" signature="8602:9637" ph="{...}" />
+            <marker date="1528960841000" expanded="true" signature="8612:9631" ph="/* typeof(Transform), ... */" />
+            <marker date="1528960841000" expanded="true" signature="9678:9722" ph="{...}" />
+            <marker date="1528960841000" expanded="true" signature="9766:9814" ph="{...}" />
+            <marker date="1528960841000" expanded="true" signature="9903:10104" ph="{...}" />
+            <marker date="1528960841000" expanded="true" signature="9945:10052" ph="{...}" />
+            <marker date="1528960841000" expanded="true" signature="10188:10334" ph="{...}" />
+            <marker date="1528960841000" expanded="true" signature="10230:10282" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Lua/TestFairyGUI.lua">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="25" lean-forward="false" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameMain.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
+        <state relative-caret-position="345">
+          <caret line="28" column="35" lean-forward="true" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
           <folding>
-            <marker date="1528959789000" expanded="false" signature="6:114" ph="..." />
-            <marker date="1528959789000" expanded="true" signature="154:642" ph="{...}" />
-            <marker date="1528959789000" expanded="true" signature="204:578" ph="{...}" />
-            <marker date="1528959789000" expanded="true" signature="633:640" ph="{...}" />
+            <marker date="1528960739000" expanded="false" signature="6:131" ph="..." />
+            <marker date="1528960739000" expanded="true" signature="171:851" ph="{...}" />
+            <marker date="1528960739000" expanded="true" signature="221:787" ph="{...}" />
+            <marker date="1528960739000" expanded="true" signature="272:633" ph="/* tolua test ... */" />
+            <marker date="1528960739000" expanded="true" signature="842:849" ph="{...}" />
           </folding>
         </state>
       </provider>

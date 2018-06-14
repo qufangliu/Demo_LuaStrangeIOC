@@ -14,6 +14,17 @@
             </e>
           </e>
         </e>
+        <e p="Lua" t="Include">
+          <e p=".DS_Store" t="Include" />
+          <e p=".DS_Store.meta" t="Include" />
+          <e p="TestFairyGUI.lua" t="Include" />
+          <e p="TestFairyGUI.lua.meta" t="Include" />
+          <e p="Thirdparty" t="Include">
+            <e p="FairyGUI.lua" t="Include" />
+            <e p="FairyGUI.lua.meta" t="Include" />
+          </e>
+          <e p="Thirdparty.meta" t="Include" />
+        </e>
         <e p="Plugins" t="Include">
           <e p="Editor" t="Include">
             <e p="JetBrains" t="Include">
@@ -23,6 +34,10 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="GameMain.cs" t="Include" />
+          <e p="Thirdparty" t="Include">
+            <e p="LuaUIHelper.cs" t="Include" />
+            <e p="TweenUtils.cs" t="Include" />
+          </e>
           <e p="UI" t="Include">
             <e p="Demo" t="Include">
               <e p="DemoBinder.cs" t="Include" />
@@ -35,11 +50,56 @@
         <e p="Source" t="Include">
           <e p="Generate" t="Include">
             <e p="DelegateFactory.cs" t="Include" />
+            <e p="FairyGUI_ContainerWrap.cs" t="Include" />
+            <e p="FairyGUI_ControllerWrap.cs" t="Include" />
+            <e p="FairyGUI_DisplayObjectWrap.cs" t="Include" />
+            <e p="FairyGUI_EventContextWrap.cs" t="Include" />
+            <e p="FairyGUI_EventDispatcherWrap.cs" t="Include" />
+            <e p="FairyGUI_EventListenerWrap.cs" t="Include" />
+            <e p="FairyGUI_GButtonWrap.cs" t="Include" />
+            <e p="FairyGUI_GComboBoxWrap.cs" t="Include" />
+            <e p="FairyGUI_GComponentWrap.cs" t="Include" />
+            <e p="FairyGUI_GGraphWrap.cs" t="Include" />
+            <e p="FairyGUI_GGroupWrap.cs" t="Include" />
+            <e p="FairyGUI_GImageWrap.cs" t="Include" />
+            <e p="FairyGUI_GLabelWrap.cs" t="Include" />
+            <e p="FairyGUI_GListWrap.cs" t="Include" />
+            <e p="FairyGUI_GLoaderWrap.cs" t="Include" />
+            <e p="FairyGUI_GLuaButtonWrap.cs" t="Include" />
+            <e p="FairyGUI_GLuaComboBoxWrap.cs" t="Include" />
+            <e p="FairyGUI_GLuaComponentWrap.cs" t="Include" />
+            <e p="FairyGUI_GLuaLabelWrap.cs" t="Include" />
+            <e p="FairyGUI_GLuaProgressBarWrap.cs" t="Include" />
+            <e p="FairyGUI_GLuaSliderWrap.cs" t="Include" />
+            <e p="FairyGUI_GMovieClipWrap.cs" t="Include" />
+            <e p="FairyGUI_GObjectPoolWrap.cs" t="Include" />
+            <e p="FairyGUI_GObjectWrap.cs" t="Include" />
+            <e p="FairyGUI_GProgressBarWrap.cs" t="Include" />
+            <e p="FairyGUI_GRichTextFieldWrap.cs" t="Include" />
+            <e p="FairyGUI_GRootWrap.cs" t="Include" />
+            <e p="FairyGUI_GSliderWrap.cs" t="Include" />
+            <e p="FairyGUI_GTextFieldWrap.cs" t="Include" />
+            <e p="FairyGUI_GTextInputWrap.cs" t="Include" />
+            <e p="FairyGUI_InputEventWrap.cs" t="Include" />
+            <e p="FairyGUI_LuaUIHelperWrap.cs" t="Include" />
+            <e p="FairyGUI_LuaWindowWrap.cs" t="Include" />
+            <e p="FairyGUI_PlayStateWrap.cs" t="Include" />
+            <e p="FairyGUI_PopupMenuWrap.cs" t="Include" />
+            <e p="FairyGUI_RelationsWrap.cs" t="Include" />
+            <e p="FairyGUI_RelationTypeWrap.cs" t="Include" />
+            <e p="FairyGUI_ScrollPaneWrap.cs" t="Include" />
+            <e p="FairyGUI_StageWrap.cs" t="Include" />
+            <e p="FairyGUI_TextFormatWrap.cs" t="Include" />
+            <e p="FairyGUI_TimersWrap.cs" t="Include" />
+            <e p="FairyGUI_TransitionWrap.cs" t="Include" />
+            <e p="FairyGUI_UIPackageWrap.cs" t="Include" />
+            <e p="FairyGUI_WindowWrap.cs" t="Include" />
             <e p="LuaBinder.cs" t="Include" />
             <e p="LuaInterface_DebuggerWrap.cs" t="Include" />
             <e p="LuaInterface_InjectTypeWrap.cs" t="Include" />
             <e p="LuaInterface_LuaInjectionStationWrap.cs" t="Include" />
             <e p="LuaProfilerWrap.cs" t="Include" />
+            <e p="TweenUtilsWrap.cs" t="Include" />
             <e p="UnityEngine_AnimationBlendModeWrap.cs" t="Include" />
             <e p="UnityEngine_AnimationClipWrap.cs" t="Include" />
             <e p="UnityEngine_AnimationStateWrap.cs" t="Include" />
