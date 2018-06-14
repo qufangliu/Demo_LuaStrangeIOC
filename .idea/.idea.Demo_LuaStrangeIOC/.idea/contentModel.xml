@@ -23,6 +23,14 @@
         </e>
         <e p="Scripts" t="Include">
           <e p="GameMain.cs" t="Include" />
+          <e p="UI" t="Include">
+            <e p="Demo" t="Include">
+              <e p="DemoBinder.cs" t="Include" />
+              <e p="UI_game.cs" t="Include" />
+              <e p="UI_result.cs" t="Include" />
+              <e p="UI_start.cs" t="Include" />
+            </e>
+          </e>
         </e>
         <e p="Source" t="Include">
           <e p="Generate" t="Include">

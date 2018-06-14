@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b112df3e-0ade-49e8-9a04-e8ebfbb57dfb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Demo_LuaStrangeIOC/.idea/contentModel.xml" afterPath="$PROJECT_DIR$/.idea/.idea.Demo_LuaStrangeIOC/.idea/contentModel.xml" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameMain.cs" afterPath="$PROJECT_DIR$/Assets/Scripts/GameMain.cs" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -16,13 +17,13 @@
       <file leaf-file-name="GameMain.cs" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameMain.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+            <state relative-caret-position="120">
+              <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
               <folding>
-                <marker date="1528958283000" expanded="false" signature="6:98" ph="..." />
-                <marker date="1528958283000" expanded="true" signature="138:473" ph="{...}" />
-                <marker date="1528958283000" expanded="true" signature="188:409" ph="{...}" />
-                <marker date="1528958283000" expanded="true" signature="464:471" ph="{...}" />
+                <marker date="1528959789000" expanded="false" signature="6:114" ph="..." />
+                <marker date="1528959789000" expanded="true" signature="154:642" ph="{...}" />
+                <marker date="1528959789000" expanded="true" signature="204:578" ph="{...}" />
+                <marker date="1528959789000" expanded="true" signature="633:640" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -50,8 +51,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-158" />
-    <option name="y" value="122" />
+    <option name="x" value="475" />
+    <option name="y" value="111" />
     <option name="width" value="1270" />
     <option name="height" value="863" />
   </component>
@@ -118,12 +119,12 @@
       <option name="presentableId" value="Default" />
       <updated>1528957829129</updated>
       <workItem from="1528957834745" duration="257000" />
-      <workItem from="1528958117332" duration="189000" />
+      <workItem from="1528958117332" duration="1636000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="446000" />
+    <option name="totallyTimeSpent" value="1893000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -135,7 +136,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-158" y="122" width="1270" height="863" extended-state="0" />
+    <frame x="475" y="111" width="1270" height="863" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -178,23 +179,23 @@
         <state relative-caret-position="150">
           <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
           <folding>
-            <marker date="1528958283000" expanded="false" signature="6:98" ph="..." />
-            <marker date="1528958283000" expanded="true" signature="138:473" ph="{...}" />
-            <marker date="1528958283000" expanded="true" signature="188:409" ph="{...}" />
-            <marker date="1528958283000" expanded="true" signature="464:471" ph="{...}" />
+            <marker date="1528959789000" expanded="false" signature="6:114" ph="..." />
+            <marker date="1528959789000" expanded="true" signature="154:642" ph="{...}" />
+            <marker date="1528959789000" expanded="true" signature="204:578" ph="{...}" />
+            <marker date="1528959789000" expanded="true" signature="633:640" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Scripts/GameMain.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
+        <state relative-caret-position="120">
+          <caret line="12" column="8" lean-forward="false" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="8" />
           <folding>
-            <marker date="1528958283000" expanded="false" signature="6:98" ph="..." />
-            <marker date="1528958283000" expanded="true" signature="138:473" ph="{...}" />
-            <marker date="1528958283000" expanded="true" signature="188:409" ph="{...}" />
-            <marker date="1528958283000" expanded="true" signature="464:471" ph="{...}" />
+            <marker date="1528959789000" expanded="false" signature="6:114" ph="..." />
+            <marker date="1528959789000" expanded="true" signature="154:642" ph="{...}" />
+            <marker date="1528959789000" expanded="true" signature="204:578" ph="{...}" />
+            <marker date="1528959789000" expanded="true" signature="633:640" ph="{...}" />
           </folding>
         </state>
       </provider>

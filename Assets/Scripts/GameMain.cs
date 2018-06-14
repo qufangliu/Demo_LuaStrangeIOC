@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using FairyGUI;
 using LuaInterface;
 using UnityEngine;
 
@@ -16,6 +17,12 @@ public class GameMain : MonoBehaviour {
 		luaState.Start();
 		luaState.DoString( luaStr );
 		luaState.Dispose();
+		
+		// fairyGUI test
+		UIPackage.AddPackage( "UI/Demo" );
+		GObject uiObj = UIPackage.CreateObject( "Demo", "start" );
+		GRoot.inst.AddChild( uiObj );
+
 	}
 	
 	// Update is called once per frame
