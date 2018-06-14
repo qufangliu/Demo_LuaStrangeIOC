@@ -25,14 +25,14 @@ public class GameMain : MonoBehaviour {
 //		GRoot.inst.AddChild( uiObj );
 		
 		// fairyGUI lua test
-		LuaState luaState = new LuaState();
-		LuaBinder.Bind( luaState );
-		luaState.Start();
-		luaState.Require( "TestFairyGUI" );
-		luaState.Dispose();
+//		LuaState luaState = new LuaState();
+//		LuaBinder.Bind( luaState );
+//		luaState.Start();
+//		luaState.Require( "TestFairyGUI" );
+//		luaState.Dispose();
 
-
-
+		// strangeIOC test
+		MainContext mainContext = new MainContext();
 	}
 	
 	// Update is called once per frame
